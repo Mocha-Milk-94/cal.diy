@@ -7,5 +7,5 @@ export const config = {
 };
 
 export default function handler(_req: NextApiRequest, res: NextApiResponse) {
-  res.status(404).json({ message: "Billing webhooks are not available in community edition" });
+  res.status(404).json({ message: "Billing webhooks are not available in community edition of cal.diy" });
 }
